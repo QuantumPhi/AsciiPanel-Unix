@@ -16,7 +16,7 @@ void Panel::flushGlyph(char glyph)
     }
 }
 
-void Panel::flushColor(Tile::ColorValue color)
+void Panel::flushColor(int color)
 {
     for(int i = 0; i < width; i++)
     {
